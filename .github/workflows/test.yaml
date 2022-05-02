@@ -3,7 +3,9 @@ on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
+    
     steps:
+      - uses: ad-m/github-push-action@v0.6.0 
       - uses: actions/checkout@v2.4.2
       - run: |
             echo "hihi" >> todo.txt
@@ -11,4 +13,6 @@ jobs:
             git config --global user.name "Github Actions"
             git add .
             git commit -m "Auto updating TODO.txt"
-            git push origin
+      - with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            force: true
