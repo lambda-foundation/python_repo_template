@@ -4,10 +4,6 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3.1.2
-        with:
-          python-version: 3.9
       - run: |
-            python3 -c "open('hi.txt', 'w')"
+            touch hi.txt
 
