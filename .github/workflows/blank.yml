@@ -33,4 +33,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Check code format.
         run: |
-          mypy *.py
+          mypy .
