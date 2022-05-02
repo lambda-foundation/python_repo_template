@@ -1,3 +1,4 @@
+# HOPEFULLY IT WORKS
 name: post-commit-data
 on: [push]
 jobs:
