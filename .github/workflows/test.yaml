@@ -7,9 +7,7 @@ jobs:
       - uses: actions/checkout@v2.4.2
       - run: |
             echo "hihi" >> todo.txt
-            git remote set-url origin ${{ secrets.ssh }}
             git add .
             git commit -m "Auto updating TODO.txt"
-            git fetch origin master
-            git push origin HEAD:master
+            git push origin
 
