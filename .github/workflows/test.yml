@@ -1,4 +1,4 @@
-name: CI
+name: Commit A file
 
 # Controls when the workflow will run
 on:
