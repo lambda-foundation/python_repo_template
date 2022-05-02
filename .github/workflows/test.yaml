@@ -1,10 +1,15 @@
-name: learn-github-actions
+name: post-commit-data
 on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2.4.2
       - run: |
-            touch hi.txt
-            ls
+            echo "hihi" >>todo.txt
+            git remote set-url origin ${{ secrets.ssh }}
+            git add .
+            git commit -m "Auto updating TODO.txt"
+            git fetch origin master
+            git push origin HEAD:master
 
