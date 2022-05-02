@@ -1,0 +1,8 @@
+on:
+  push: 
+
+git config --global user.name 'bot'
+git config --global user.email 'bot'
+git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+git commit -am "Automated changes"
+git push
