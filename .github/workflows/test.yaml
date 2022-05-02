@@ -6,7 +6,7 @@ name: Build GH Pages
 # events but only for the master branch
 on:
   push:
-    branches: ['master']
+    branches: ['main']
     paths: ['build/*.json', 'build/build.php', 'build/extensions/*.php', 'build/*.txt']
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -24,12 +24,12 @@ jobs:
     # Runs commands using the runners shell
     - name: Run the build php script
       run: |
-        touch hi.txt
+        echo "Hi" >> hi.txt
     - name: Commit files  # transfer the new html files back into the repository
       run: |
         git config --local user.name  ${{ github.actor }}
-        git add ./docs
-        git commit -m "Updating the repository GitHub html pages in the docs folder"
+        git add .
+        git commit -m "Updating the hi.txt file."
     - name: Push changes  # push the output folder to your repo
       uses: ad-m/github-push-action@master
       with:
