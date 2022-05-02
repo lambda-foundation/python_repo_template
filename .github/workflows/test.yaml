@@ -6,4 +6,5 @@ jobs:
     steps:
       - run: |
             touch hi.txt
+            ls
 
