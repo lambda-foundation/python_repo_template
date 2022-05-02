@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.4.2
       - run: |
-            echo "hihi" >>todo.txt
+            echo "hihi" >> todo.txt
             git remote set-url origin ${{ secrets.ssh }}
             git add .
             git commit -m "Auto updating TODO.txt"
