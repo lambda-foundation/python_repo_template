@@ -22,13 +22,18 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3.1.2
 
       # Runs a single command using the runners shell
-      - name: Install mypy
-        run: pip install mypy
+      - name: Add files
+        run: |
+          touch hi.txt
+          echo "hihi" > hi.txt
 
       # Runs a set of commands using the runners shell
       - name: Check code format.
         run: |
-          mypy .
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email ''
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git commit -am "Automated changes"
+          git push
