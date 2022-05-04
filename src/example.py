@@ -11,15 +11,16 @@ class ExampleClass:
         """
         Does nothing.
         """
+        self.value = 1
 
-    def start(self) -> None:
+    def start(self) -> int:
         """
         Does nothing.
         """
-        return None
+        return self.value
     
-    def dull(self) -> None:
+    def dull(self) -> int:
         """
         Does nothing.
         """
-        return None
+        return self.value
