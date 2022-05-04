@@ -18,9 +18,11 @@
 
 ---
 
-#### src.example.ExampleClass()
+### src.example.ExampleClass()
 
-##### src.ExampleClass.start() -> None
+---
+
+#### src.ExampleClass.start() -> None
 
 ```python
 from src import ExampleClass
@@ -32,7 +34,7 @@ if start == None:
     print("This class is stupid.")
 ```
 
-##### src.ExampleClass.dull() -> None
+#### src.ExampleClass.dull() -> None
 
 ```python
 from src import ExampleClass
