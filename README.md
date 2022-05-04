@@ -75,4 +75,4 @@ main.py --argument
 
 ## Documentation
 
-All the docs can be found here: [Link](#)
+All the docs can be found here: [Documentation](https://github.com/lambda-foundation/python_repo_template/blob/main/README.md)
