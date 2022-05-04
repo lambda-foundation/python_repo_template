@@ -2,7 +2,7 @@
 Example.py: Contains literally nothing.
 """
 
-class ExampleClass(object):
+class ExampleClass:
     """
     Some fake class.
     """
@@ -11,9 +11,14 @@ class ExampleClass(object):
         """
         Does nothing.
         """
-        pass
 
     def start(self) -> None:
+        """
+        Does nothing.
+        """
+        return None
+    
+    def dull(self) -> None:
         """
         Does nothing.
         """
