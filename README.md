@@ -17,7 +17,7 @@
 
 ## Table of contents
 
-- [Installation](##installation)
+- [Installation](#installation)
 - Usage
 
-## Installation
+# Installation
