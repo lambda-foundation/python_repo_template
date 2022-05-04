@@ -20,7 +20,7 @@ Methods
 
 Usage
 
-```
+```python
 from src import ExampleClass
 
 example = ExampleClass()
