@@ -12,11 +12,11 @@
 
 ## src
 
----
-
-### src.example
+- [src.example](#src.example)
 
 ---
+
+## src.example
 
 ### src.example.ExampleClass()
 
