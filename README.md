@@ -18,7 +18,7 @@
 ## Table of contents
 
 - [Installation](#installation)
-- Usage
+- [Usage](#usage)
 
 ---
 
