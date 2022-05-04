@@ -13,6 +13,6 @@ def my_code(x_variable: int) -> int:
 
 my_example = ExampleClass()
 
-print(ExampleClass.start())
+print(my_example.start())
 
 my_code(3)
