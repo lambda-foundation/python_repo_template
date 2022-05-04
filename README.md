@@ -42,3 +42,19 @@ git commit -m "First commit."
 git branch -m main
 git push origin
 ```
+
+---
+
+## Usage
+
+Once cloned, run a pip install.
+
+```bash
+pip install -r requirements.txt
+```
+
+Then run main.py with arguments.
+
+```bash
+main.py --argument
+```
