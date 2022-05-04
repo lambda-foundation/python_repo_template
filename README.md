@@ -2,7 +2,7 @@
   
   # Repo Name Here
   
-  !(logo)[]
+  ![logo](assets/logo.png)
   
 </div>
 
