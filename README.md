@@ -6,6 +6,8 @@
   
   ![Python Type Checking](https://github.com/lambda-foundation/github_actions_practice/actions/workflows/python_type_check.yml/badge.svg)
   
+  ![Pylint Syntax Checking](https://github.com/lambda-foundation/github_actions_practice/actions/workflows/pylint.yml/badge.svg)
+  
 </div>
 
 ---
