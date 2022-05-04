@@ -18,7 +18,7 @@ class ExampleClass:
         Does nothing.
         """
         return self.value
-    
+
     def dull(self) -> int:
         """
         Does nothing.
