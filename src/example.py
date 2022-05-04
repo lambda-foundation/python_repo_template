@@ -11,7 +11,7 @@ class ExampleClass:
         """
         Does nothing.
         """
-        self.value = 1
+        self.value: int = 1
 
     def start(self) -> int:
         """
