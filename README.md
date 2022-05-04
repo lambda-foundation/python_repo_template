@@ -15,9 +15,9 @@
   
 </div>
 
-# Table of contents
+## Table of contents
 
-- [Installation](##installation)
+- [Installation](#installation)
 - Usage
 
 ## Installation
