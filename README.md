@@ -1,8 +1,12 @@
-# github_actions_practice
-A repo to practice github actions.
+<div text-align="center">
+  
+  # Repo Name Here
+  
+  !(logo)[]
+  
+</div>
+
+
+Repo description here.
 
 ![Python Type Checking](https://github.com/lambda-foundation/github_actions_practice/actions/workflows/python_type_check.yml/badge.svg)
-
-
-asdfasasdfasdfasdfasdfasdfasfa
-asdfasdfasdfasdf
