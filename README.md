@@ -20,6 +20,7 @@
 - [About](#about)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Documentation](#documentation)
 
 ---
 
@@ -70,3 +71,8 @@ Then run main.py with arguments.
 ```bash
 main.py --argument
 ```
+---
+
+## Documentation
+
+All the docs can be found here: [Link](#)
