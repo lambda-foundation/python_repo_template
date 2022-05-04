@@ -6,4 +6,4 @@
 
 ## Libraries
 
-- [src](#src)
+- [src](https://github.com/lambda-foundation/python_repo_template/tree/main/docs/src)
