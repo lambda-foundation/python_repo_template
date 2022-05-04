@@ -4,9 +4,12 @@
   
   <img src="assets/logo.png" width="256" height="256" />
   
+  ![Python Type Checking](https://github.com/lambda-foundation/github_actions_practice/actions/workflows/python_type_check.yml/badge.svg)
+  
 </div>
 
+---
 
 Repo description here.
 
-![Python Type Checking](https://github.com/lambda-foundation/github_actions_practice/actions/workflows/python_type_check.yml/badge.svg)
+
