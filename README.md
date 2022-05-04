@@ -20,4 +20,25 @@
 - [Installation](#installation)
 - Usage
 
+---
+
 ## Installation
+
+Steps to install go here.
+
+1. Git clone the repo.
+2. Create a new repo under your account.
+3. Commit the files in this repo into your repo.
+
+```bash
+git clone XXXXXXXXXX
+
+mkdir XXX
+cd XXX
+cp ../XXXXXXXXX/* ./
+git remote add origin
+git add .
+git commit -m "First commit."
+git branch -m main
+git push origin
+```
