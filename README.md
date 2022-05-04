@@ -6,13 +6,14 @@
   
   ![Python Type Checking](https://github.com/lambda-foundation/github_actions_practice/actions/workflows/python_type_check.yml/badge.svg)
   ![Pylint Syntax Checking](https://github.com/lambda-foundation/github_actions_practice/actions/workflows/pylint.yml/badge.svg)
+
+  ---
+
+  ### Repo Name: A very nice description can go here.
+
+  ---
   
 </div>
 
----
-
-### Repo Name: A very nice description can go here.
-
----
 
 
