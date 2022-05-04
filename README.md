@@ -1,4 +1,4 @@
-<div text-align="center">
+<div align="center">
   
   # Repo Name Here
   
